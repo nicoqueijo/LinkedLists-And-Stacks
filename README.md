@@ -15,8 +15,8 @@ The following Java implementation of a class Node is given:
 			data = d;
 			next = n;
 		}
-			Object data;
-			Node next;
+		Object data;
+		Node next;
 		}
 		
 Assume that a singly linked list is implemented with a header node, but no tail node, and
@@ -36,14 +36,14 @@ The following Java implementation of a class Node is given:
 
 	private class Node<Comparable> {
 	Node() {
-	this(null, null);
+		this(null, null);
 	}
 	Node(Comparable d) {
-	this(d, null);
+		this(d, null);
 	}
 	Node(Comparable d, Node n) {
-	data = d;
-	next = n;
+		data = d;
+		next = n;
 	}
 	Comparable data;
 	Node next;
