@@ -15,8 +15,8 @@ The following Java implementation of a class Node is given:
 			data = d;
 			next = n;
 		}
-			Object data;
-			Node next;
+		Object data;
+		Node next;
 		}
 		
 Assume that a singly linked list is implemented with a header node, but no tail node, and
@@ -33,16 +33,17 @@ methods to:
 Problem #2:
 
 The following Java implementation of a class Node is given:
+
 	private class Node<Comparable> {
 	Node() {
-	this(null, null);
+		this(null, null);
 	}
 	Node(Comparable d) {
-	this(d, null);
+		this(d, null);
 	}
 	Node(Comparable d, Node n) {
-	data = d;
-	next = n;
+		data = d;
+		next = n;
 	}
 	Comparable data;
 	Node next;
@@ -63,7 +64,7 @@ Problem #3
 Implement a program in Java to convert an infix expression that includes (, ), +, -, *,
 and / to postfix expression.
 For simplicity, your program will read from standard input (until the user enters the symbol
-ì=î) an infix expression of single lower case and the operators +, -, /, *, and ( ), and
+‚Äú=‚Äù) an infix expression of single lower case and the operators +, -, /, *, and ( ), and
 output a postfix expression.
 
 Problem #4
